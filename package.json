@@ -1,20 +1,22 @@
 {
-  "name": "vue3-json-viewer",
-  "version": "1.0.4",
-  "description": "vuejs展示json的组件,适配vue3",
-  "main": "dist/bundle.cjs.js",
-  "module": "dist/bundle.esm.js",
+  "name": "vue-baidu-calendar",
+  "version": "1.0.0",
+  "description": "基于vue3实现的百度日历组件",
+  "main": "src/index.js",
+  "module": "index.js",
   "files": [
-    "dist"
+    "dist",
+    "index.js"
   ],
   "scripts": {
     "build": "rollup -c"
   },
   "keywords": [
     "vue",
-    "json",
+    "calendar",
     "vue-next",
-    "vue3"
+    "vue3",
+    "日历组件"
   ],
   "author": "qiuquanwu <“919403255@qq.com>",
   "license": "ISC",
@@ -23,12 +25,14 @@
     "@babel/plugin-syntax-jsx": "^7.10.4",
     "@babel/preset-env": "^7.11.0",
     "@rollup/plugin-commonjs": "^14.0.0",
+    "@rollup/plugin-json": "^4.1.0",
     "@rollup/plugin-node-resolve": "^8.4.0",
-    "@vue/compiler-sfc": "^3.0.0-rc.5",
+    "@vue/compiler-sfc": "^3.0.5",
     "clean-css": "^4.2.3",
     "rollup": "^2.23.1",
     "rollup-plugin-babel": "^4.4.0",
     "rollup-plugin-css-only": "^2.1.0",
+    "rollup-plugin-embed-css": "^1.0.21",
     "rollup-plugin-jsx": "^1.0.3",
     "rollup-plugin-styles": "^3.10.0",
     "rollup-plugin-stylus-css-modules": "^1.5.0",
@@ -36,24 +40,15 @@
     "rollup-plugin-unassert": "^0.3.0",
     "rollup-plugin-vue": "^6.0.0-beta.10",
     "stylus": "^0.54.8",
-    "vue": "^3.0.0-rc.5"
+    "vue": "^3.0.5",
+    "vue-template-compiler": "^2.6.12"
   },
   "peerDependencies": {
-    "vue": "^3.0.0-rc.5",
-    "clipboard": "^2.0.6"
+    "vue": "^3.0.4"
   },
-  "contributors": [
-    {
-      "name": "陈峰",
-      "email": "chenfengjw@hotmail.com"
-    },
-    {
-      "name": "Sacha Stafyniak",
-      "email": "sacha.stafyniak@gmail.com"
-    },
-    {
-      "name": "邱权武",
-      "email": "9194032@qq.com"
-    }
-  ]
+  "dependencies": {
+    "ant-design-vue": "^2.0.0-rc.9",
+    "vue": "^3.0.5",
+    "vue-template-compiler": "^2.6.12"
+  }
 }
