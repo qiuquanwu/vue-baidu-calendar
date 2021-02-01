@@ -228,7 +228,7 @@ const handleChange = (value) => {
   nextTick(generate);
 };
 const handleChangeMonth = (value) => {
-  selectYear.value = value;
+  selectMonth.value = value;
   selectDayDate.value = [
     selectDayDate.value.split("-")[0],
     value,
