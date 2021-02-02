@@ -392,7 +392,7 @@ const handleChangeDate = (value) => {
 };
 </script>
 
-<style scoped>
+<style>
 *, :after, :before {
     box-sizing: border-box;
 }

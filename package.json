@@ -1,6 +1,6 @@
 {
   "name": "vue-baidu-calendar",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "基于vue3实现的百度日历组件",
   "main": "src/index.js",
   "module": "index.js",
