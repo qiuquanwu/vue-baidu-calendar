@@ -21,7 +21,7 @@
           <div class="op-calendar-pc-month-box">
             <Select
               v-model:value="selectMonth"
-              style="width: 80px"
+              style="width: 100px"
               @change="handleChangeMonth"
             >
               <Option
@@ -34,7 +34,7 @@
             </Select>
           </div>
           <div class="op-calendar-pc-holiday-box">
-            <Select style="width: 80px" @change="handleChangeDate">
+            <Select style="width: 100px" @change="handleChangeDate">
               <Option
                 v-for="item of HOLIDAY"
                 :value="item.date"
@@ -392,7 +392,10 @@ const handleChangeDate = (value) => {
 };
 </script>
 
-<style>
+<style scoped>
+*, :after, :before {
+    box-sizing: border-box;
+}
 .opui-scroll-ctrl-content {
   overflow: hidden;
 }
@@ -507,7 +510,7 @@ const handleChangeDate = (value) => {
 .op-calendar-pc-month-box,
 .op-calendar-pc-holiday-box {
   float: left;
-  margin-right: 9px;
+  margin-right: 30px;
   color: #333;
   min-width: 80px;
 }
