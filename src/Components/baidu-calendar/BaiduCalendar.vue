@@ -18,7 +18,7 @@
               </Option>
             </Select>
           </div>
-          <div class="op-calendar-pc-month-box">
+          <div class="op-calendar-pc-holiday-box">
             <Select
               v-model:value="selectMonth"
               style="width: 100px"
