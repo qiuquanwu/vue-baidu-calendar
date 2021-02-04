@@ -1,5 +1,7 @@
 # vue-baidu-calendar
 基于vue3实现的百度日历组件。宜忌算法尚未实现，欢迎pr。
+
+> react版本[github](https://github.com/qiuquanwu/baidu-calendar)
  ## 安装
 ```
 $ npm install vue-baidu-calendar --save
